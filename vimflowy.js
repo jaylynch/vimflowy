@@ -24,7 +24,9 @@ var normalKeybindings = {
     "ctrl+r": commands.doRedo,
 
     "i": enterInsertMode,
-    "a": enterInsertMode
+    "a": enterInsertMode,
+
+    "/": commands.enterSearchMode
 };
 
 var insertKeybindings = {
